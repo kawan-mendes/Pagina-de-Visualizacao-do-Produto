@@ -7,6 +7,8 @@ import HomePage from './pages/HomePage/App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    
     <HomePage />
+
   </StrictMode>
 )
