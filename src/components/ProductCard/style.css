@@ -3,17 +3,27 @@
     height: 321px;
     padding: 1rem;
     box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.322);
-
+   position: relative;
 }
 
 .off{
+
     position: absolute;
-    top: 0;
-    left: 25px;
+    top: 1rem;
+    left: 1rem;
     background-color: rgba(255, 0, 0, 0.7);
     padding: 5px;
-    border-radius: 20px;
+    border-radius: 8px;
     margin-right: 10px;
+    width: 6.5rem;
+    height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+
+
+
 
 }
 
@@ -21,3 +31,18 @@
    width: inherit;
    height: inherit;
 }
+
+.priceCard{
+    display: flex;
+    gap: 16px;
+   
+}
+
+    .preco{
+        margin-right: 1rem;
+        text-decoration:line-through;
+    }
+
+    .priceCard .precoDesconto{
+       
+    }

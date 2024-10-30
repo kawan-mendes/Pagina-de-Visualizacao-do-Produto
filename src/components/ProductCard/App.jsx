@@ -16,8 +16,8 @@ export default function ProductCard (props){
                      <h4>{props.title}</h4>
                      <p>{props.nomeProduto}</p>
                      <div className="priceCard">
-                        <p>{props.preco}</p>
-                        <p>{props.precoDesconto}</p>
+                        <p className="preco">{props.preco}</p>
+                        <p className="precoDesconto">{props.precoDesconto}</p>
                      </div>
              </section>
 
